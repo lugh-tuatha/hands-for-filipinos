@@ -3,8 +3,6 @@
     <img src="images/logo.png" alt="Logo" height="80">
   </a>
 
-  <h3 align="center">Hands-for-the-Filipinos</h3>
-
   <p align="center">
     An start up charity founded by Ms. Mocha
     <br />
