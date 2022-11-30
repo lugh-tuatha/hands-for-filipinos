@@ -8,7 +8,7 @@
   <p align="center">
     An start up charity founded by Ms. Mocha
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://lugh-tuatha.github.io/hands-for-filipinos/">View Demo</a>
     ·
     <a href="https://github.com/lugh-tuatha/hands-for-filipinos/issues">Report Bug</a>
     ·
