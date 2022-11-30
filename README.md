@@ -31,7 +31,7 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](/images/4git/sample.png)
+<img src="images/4git/sample.png">
 
 ### Built With
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)<br>
