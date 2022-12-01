@@ -125,7 +125,7 @@ header nav ul li a:hover{
 .banner{
     min-height: 100vh;
     width: 100%;
-    background-image: url("/images/banner.jpg");
+    background-image: url(/images/banner.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -283,22 +283,22 @@ program Section start
 
 .programs .boxContainer .box:nth-child(1) .cardImage,
 .programs .boxContainer .box:nth-child(1) .cardImage::after{
-    background-image: url("/images/programs/1.jpg");
+    background-image: url(/images/programs/1.jpg);
 }
 
 .programs .boxContainer .box:nth-child(2) .cardImage,
 .programs .boxContainer .box:nth-child(2) .cardImage::after{
-    background-image: url("/images/programs/2.jpg");
+    background-image: url(/images/programs/2.jpg);
 }
 
 .programs .boxContainer .box:nth-child(3) .cardImage,
 .programs .boxContainer .box:nth-child(3) .cardImage::after{
-    background-image: url("/images/programs/3.jpg");
+    background-image: url(/images/programs/3.jpg);
 }
 
 .programs .boxContainer .box:nth-child(4) .cardImage,
 .programs .boxContainer .box:nth-child(4) .cardImage::after{
-    background-image: url("/images/programs/4.jpg");
+    background-image: url(/images/programs/4.jpg);
 }
 
 .programs .boxContainer .box:hover .cardImage::after{
