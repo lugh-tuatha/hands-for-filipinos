@@ -1,6 +1,6 @@
-/*-----------------
+/*------------------
 Common style start
------------------*/
+------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 
 :root{
@@ -12,10 +12,10 @@ html{
     scroll-behavior: smooth;
 }
 
-button,
-body{
+button, body{
     font-family: 'Poppins', sans-serif;
 }
+
 *{
     margin: 0;
     padding: 0;
@@ -29,7 +29,7 @@ p{
 
 .fullContainer{
     width: 100%;
-}     
+}
 
 .container{
     width: 1540px;
@@ -58,20 +58,25 @@ p{
     left: calc(50% - 10px);
     top: calc(75% - 7px);
     transform: rotate(45deg) translate(50%, 50%);
-    border: 3px solid #fff;
+    border: 3px solid white;
 }
 
 section{
-    padding: 256.5px 0;
+    padding: 120px 0 392.5px 0;
     position: relative;
 }
-/*-----------------
-Common style end
------------------*/
 
-/*-----------------
+.programs{
+    padding: 120px 0 255.5px 0;
+    position: relative;
+}
+/*------------------
+Common style end
+------------------*/
+
+/*------------------
 Home style start
------------------*/
+------------------*/
 header{
     width: 100%;
     background-color: rgba(0, 0, 0, 0.6);
@@ -109,7 +114,7 @@ header nav ul li a{
     text-decoration: none;
     text-transform: capitalize;
     font-size: 16px;
-    color: white;
+    color: #fff;
     transition: 0.3s;
 }
 
@@ -120,16 +125,16 @@ header nav ul li a:hover{
 .banner{
     min-height: 100vh;
     width: 100%;
-    background-image: url(../images/banner.jpg);
+    background-image: url("/images/banner.jpg");
     background-size: cover;
     background-attachment: fixed;
 }
 
 .banner h1{
-    margin-top: 370px;
+    margin-top: 400px;
     display: inline-block;
     font-size: 3.5rem;
-    color: #fff;
+    color: white;
     text-shadow: 0 0 2px #000;
     width: 50%;
     line-height: 4.2rem;
@@ -156,20 +161,21 @@ header nav ul li a:hover{
     background-color: var(--themeRed);
     border: 0;
     outline: none;
-    color: white;
+    color: #fff;
     padding: 10px 15px;
     margin-top: 20px;
     font-size: 13px;
     border-radius: 3px;
     font-weight: 600;
+    cursor: pointer;
 }
-/*-----------------
+/*------------------
 Home style end
------------------*/
+------------------*/
 
-/*-----------------
-AboutSection start
------------------*/
+/*-----------------------
+aboutSection style start
+-----------------------*/
 #aboutSection .cards{
     display: flex;
     flex-wrap: wrap;
@@ -180,19 +186,19 @@ AboutSection start
 }
 
 #aboutSection .cards > div{
-    width: 350px;
+    width: 370px;
     background-color: var(--gray);
     padding: 35px;
     color: #444;
     text-align: center;
-    border-radius: 5px;
-    height: 355px;
+    border-radius: 15px;
+    height: 425px;
     border: 1px solid #ccc;
-    transition: 0.4s ;
+    transition: 0.4s;
 }
 
 #aboutSection .cards > div:hover{
-    width: 400px;
+    width: 420px;
     margin-top: -20px;
     border-color: var(--themeRed);
     padding: 55px;
@@ -225,7 +231,112 @@ AboutSection start
     background-color: var(--themeRed);
     color: white;
 }
+/*-----------------------
+aboutSection style end
+-----------------------*/
 
-/*-----------------
-AboutSection end
------------------*/
+/*-----------------------
+program Section start
+-----------------------*/
+.programs{
+    background-color: #e2e2e2;
+}
+
+.programs .boxContainer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 50px;
+}
+
+.programs .boxContainer .box{
+    background-color: white;
+    text-align: center;
+    padding-bottom: 25px;
+    border-radius: 5px;
+    box-shadow: 0 0 3px 0 #c5c5c5;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.programs .boxContainer .box .cardImage {
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px 5px 0 0;
+}
+
+.programs .boxContainer .box .cardImage::after{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    filter: grayscale(100%);
+    transition: 0.4s;
+}
+
+.programs .boxContainer .box:nth-child(1) .cardImage,
+.programs .boxContainer .box:nth-child(1) .cardImage::after{
+    background-image: url("/images/programs/1.jpg");
+}
+
+.programs .boxContainer .box:nth-child(2) .cardImage,
+.programs .boxContainer .box:nth-child(2) .cardImage::after{
+    background-image: url("/images/programs/2.jpg");
+}
+
+.programs .boxContainer .box:nth-child(3) .cardImage,
+.programs .boxContainer .box:nth-child(3) .cardImage::after{
+    background-image: url("/images/programs/3.jpg");
+}
+
+.programs .boxContainer .box:nth-child(4) .cardImage,
+.programs .boxContainer .box:nth-child(4) .cardImage::after{
+    background-image: url("/images/programs/4.jpg");
+}
+
+.programs .boxContainer .box:hover .cardImage::after{
+    top: 100%;
+}
+
+.programs .boxContainer .box .programTitle{
+    font-size: 16px;
+    margin-top: 15px;
+    font-weight: 600;
+    color: #444;
+}
+
+.programs .boxContainer .box .donationCount{
+    font-size: 13px;
+    font-weight: 600;
+    color: #444;
+    margin-top: 10px;
+}
+
+.programs .boxContainer .box .donationCount span{
+    color: var(--themeRed);
+}
+
+.programs .boxContainer .box button{
+    position: absolute;
+    left: 50%;
+    background-color: var(--themeRed);
+    color: white;
+    transform: translate(-50%);
+    bottom: -15px;
+    border-radius: 60px;
+    padding: 7px 15px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+/*-----------------------
+program Section end
+-----------------------*/
