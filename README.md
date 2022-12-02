@@ -3,7 +3,7 @@
     <img src="images/logo.png" alt="Logo" height="80">
   </a>
 
-  <p align="">
+  <p align="center">
     An start up charity founded by Ms. Mocha
     <br />
     <a href="https://lugh-tuatha.github.io/hands-for-filipinos/">View Demo</a>
