@@ -231,6 +231,12 @@ aboutSection style start
     background-color: var(--themeRed);
     color: white;
 }
+
+#aboutSection .cards img{
+    width: 300px;
+    margin-top: 20px;
+    border: 1px solid green;
+}
 /*-----------------------
 aboutSection style end
 -----------------------*/
@@ -283,22 +289,22 @@ program Section start
 
 .programs .boxContainer .box:nth-child(1) .cardImage,
 .programs .boxContainer .box:nth-child(1) .cardImage::after{
-    background-image: url(/images/programs/1.jpg);
+    background-image: url(../images/programs/1.jpg);
 }
 
 .programs .boxContainer .box:nth-child(2) .cardImage,
 .programs .boxContainer .box:nth-child(2) .cardImage::after{
-    background-image: url(/images/programs/2.jpg);
+    background-image: url(../images/programs/2.jpg);
 }
 
 .programs .boxContainer .box:nth-child(3) .cardImage,
 .programs .boxContainer .box:nth-child(3) .cardImage::after{
-    background-image: url(/images/programs/3.jpg);
+    background-image: url(../images/programs/3.jpg);
 }
 
 .programs .boxContainer .box:nth-child(4) .cardImage,
 .programs .boxContainer .box:nth-child(4) .cardImage::after{
-    background-image: url(/images/programs/4.jpg);
+    background-image: url(../images/programs/4.jpg);
 }
 
 .programs .boxContainer .box:hover .cardImage::after{
@@ -336,7 +342,208 @@ program Section start
     outline: none;
     cursor: pointer;
 }
-
 /*-----------------------
 program Section end
+-----------------------*/
+
+/*-----------------------
+education Section start
+-----------------------*/
+.education{
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.education .videoPlayer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+}
+
+.education .sectionTitle{
+    color: white;
+    text-shadow: 0 0 4px black;
+}
+
+.education .educationContainer{
+    position: absolute;
+    background-color: #00000096;
+    width: 600px;
+    top: 35vh;
+    color: white;
+    text-shadow: 0 0 3px black;
+    padding: 30px;
+}
+
+.education .educationContainer h3{
+    font-size: 35px;
+    font-weight: 300;
+}
+
+.education .educationContainer p{
+    font-size: 15px;
+    line-height: 20px;
+    margin: 10px 0 30px;
+}
+
+.education .educationContainer button{
+    background-color: var(--themeRed);
+    border: 0;
+    color: white;
+    padding: 10px 25px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+    outline: none;
+}
+/*-----------------------
+education Section end
+-----------------------*/
+
+/*-----------------------
+gallery start here
+-----------------------*/
+.gallery .galleryContainer{
+    column-count: 4;
+    column-gap: 20px;
+}
+
+.gallery .galleryContainer .item{
+    position: relative;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.gallery .galleryContainer img{
+    width: 100%;
+    display: block;
+    transition: 0.4s;
+}
+
+.gallery .galleryContainer .title{
+    position: absolute;
+    background-color: var(--gray);
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    opacity: 0;
+    z-index: 1;
+    transition: 0.4s;
+}
+
+.gallery .galleryContainer .item:hover .title{
+    opacity: 1;
+}
+
+.gallery .galleryContainer .item:hover img{
+    transform: scale(1.2);
+}
+
+/*-----------------------
+gallery end here
+-----------------------*/
+
+/*-----------------------
+join us start from here
+-----------------------*/
+.join{
+    background-image: url(../images//pattern.jpg);
+    color: #fff;
+}
+
+.join .joinTitle{
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.join .joinTitle span{
+    font-weight: 800;
+}
+
+.join button{
+    padding: 7px 15px;
+    margin-top: 20px;
+    border: 0;
+    outline: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.join button.joinNow{
+    margin-right: 10px;
+    background-color: #424242;
+    color: white;
+}
+
+.joinNow button.helpBtn{
+    background-color: var(--gray);
+}
+
+/*-----------------------
+join us end here
+-----------------------*/
+
+/*-----------------------
+footer start here
+-----------------------*/
+footer{
+    background-color: #181818;
+    color: #7f7f7f;
+    padding: 35px 0;
+    font-size: 14px;
+}
+
+footer .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 50px;
+}
+
+footer .title{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-bottom: 2px solid;
+    margin-bottom: 30px;
+    padding: 0 0 5px 0;
+}
+
+footer p{
+    margin-bottom: 10px;
+}
+
+footer .linksContainer ul{
+    list-style-type: none;
+}
+
+footer .linksContainer ul li a{
+    text-decoration: none;
+    color: #7f7f7f;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+footer .newsLetterContainer img{
+    height: 40px;
+    margin-bottom: 11px;
+}
+
+footer .newsLetterContainer input{
+    background-color: transparent;
+    border: 1px solid #7f7f7f;
+    outline: none;
+    padding: 10px 15px;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 30px;
+    color: #ccc;
+}
+
+/*-----------------------
+footer end here
 -----------------------*/
