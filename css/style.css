@@ -593,6 +593,10 @@ Responsive code start
         width: 100%;
         padding: 0 15px;
     }
+
+    .education .videoPlayer{
+        width: 1920px;
+    }
 }
 
 @media screen and (max-width: 1080px){
@@ -601,6 +605,7 @@ Responsive code start
     }
     #aboutSection .cards{
         justify-content: space-around;
+        height: auto;
     }
 
     #aboutSection .cards > div{
@@ -608,6 +613,152 @@ Responsive code start
     }
 }
 
+@media screen and (max-width:1024px) {
+    .banner{
+        background-position-x: 45%;
+    }
+
+    .banner h1{
+        font-size: 2.5rem;
+    }
+
+    .programs .boxContainer{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width:768px){
+    header nav {
+        position: relative;
+        border: 2px solid white;
+        height: 30px;
+        width: 30px;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+
+    header nav:after{
+        top: 17px;
+    }
+    header nav:before{
+        top: 7px;
+    }
+    header nav:after, header nav:before{
+        content: "";
+        height: 2px;
+        width: 17px;
+        background-color: white;
+        display: block;
+        position: absolute;
+        left: 5px;
+    }
+
+    header nav ul{
+        position: absolute;
+        right: -400px;
+        top: 53px;
+        transition: 0.5s;
+    }
+
+    header nav:hover ul{
+        right: 0;
+    }
+
+    header nav ul li{
+        display: block;
+    }
+
+    header nav ul li a{
+        width: 300px;
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    .banner{
+        background-position-x: 65%;
+    }
+
+    .banner p{
+        font-size: 14px;
+    }
+
+    .banner p, .banner h1{
+        width: 70%;
+    }
+
+    #aboutSection .cards > div:hover{
+        width: 440px;
+    }
+
+    .education .educationContainer{
+        width: 96%;
+    }
+
+    .education .educationContainer h3{
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .education .educationContainer p{
+        margin: 10px 0 20px;
+    }
+
+    .gallery .galleryContainer{
+        column-count: 2;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .banner h1{
+        margin: 150px;
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+    
+    .banner button{
+        margin-bottom: 10px;
+    }
+
+    #aboutSection p{
+        text-align: justify;
+    }
+
+    #aboutSection .cards > div:hover{
+        width: 400px;
+        margin-top: 10px;
+        padding: 35px;
+    }
+
+    .programs .boxContainer{
+        grid-template-columns: 1fr;
+    }
+
+    .education .videoPlayer{
+        width: 1400px;
+    }
+
+    .education .educationContainer{
+        width: 93%;
+    }
+
+    .gallery .galleryContainer{
+        column-count: 1;
+    }
+
+    footer .container{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .education .educationContainer h3{
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .banner h1{
+        margin-top: 100px;
+    }
+}
 /*-----------------------
 Responsive code end 
 -----------------------*/
