@@ -484,6 +484,10 @@ join us start from here
     background-color: var(--gray);
 }
 
+.join .container .light{
+    font-weight: 200;
+    color: black;
+}
 /*-----------------------
 join us end here
 -----------------------*/
@@ -538,12 +542,72 @@ footer .newsLetterContainer input{
     border: 1px solid #7f7f7f;
     outline: none;
     padding: 10px 15px;
-    width: 100%;
+    width: 72%;
     margin-top: 10px;
     border-radius: 30px;
     color: #ccc;
 }
 
+a{
+    text-decoration: none;
+    color: #7f7f7f;
+}
+
+.newsLetterContainer button i{
+    width: 40px;
+}
+
+
+.newsLetterContainer .btn{
+    position: relative;
+    top: 5px;
+    float: right;
+    margin-top: 5px;
+    font-size: 12px;
+    color: #7f7f7f;
+    background-color: transparent;
+    padding: 9px 13px;
+    border: 1px solid #7f7f7f;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 50px;
+    transition : 1000ms;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.newsLetterContainer .btn:hover{
+    background-color: transparent;
+    color: #0066cc;
+    border: solid 1px var(--themeRed);
+}
 /*-----------------------
 footer end here
+-----------------------*/
+
+/*-----------------------
+Responsive code start
+-----------------------*/
+@media screen and (max-width:1140px){
+    .container{
+        width: 100%;
+        padding: 0 15px;
+    }
+}
+
+@media screen and (max-width: 1080px){
+    .banner h1{
+        margin-top: 200px;
+    }
+    #aboutSection .cards{
+        justify-content: space-around;
+    }
+
+    #aboutSection .cards > div{
+        margin: 10px 0;
+    }
+}
+
+/*-----------------------
+Responsive code end 
 -----------------------*/
