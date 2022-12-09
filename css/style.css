@@ -476,7 +476,7 @@ join us start from here
 
 .join button.joinNow{
     margin-right: 10px;
-    background-color: #424242;
+    background-color: var(--themeRed);
     color: white;
 }
 
