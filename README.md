@@ -26,6 +26,9 @@
     </li>
     <li>
       <a href="#About-The-Livechat">About the livechat</a>
+      <ul>
+        <li><a href="#how-to-use">Built With</a></li>
+      </ul>
     </li>
   <ol>
 </details>
