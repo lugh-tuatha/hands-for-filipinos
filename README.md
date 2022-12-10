@@ -27,7 +27,13 @@
     <li>
       <a href="#Livechat">About the livechat</a>
       <ul>
-        <li><a href="#How-to-use">How to use(admin only)</a></li>
+        <li><a href="#How-to-use">How to use drift</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#Newsletter">Newsletter</a>
+      <ul>
+        <li><a href="#How-newsletter-works">How newsletter works</a></li>
       </ul>
     </li>
   <ol>
@@ -50,3 +56,7 @@
 <p><a href="https://gethelp.drift.com/s/article/Featured-Downloads"> Download drift here </a>and login or <a href="https://start.drift.com/login">Login here</a> using the email i sent</p>
 <p>After you log in you can talk to visitor in real time</p>
 <img src="images\readme img\drift.png">
+
+## Newsletter
+
+### How newsletter works
