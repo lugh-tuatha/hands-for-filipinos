@@ -46,4 +46,4 @@
 ### How to use(admin only)
 <p><a href="https://gethelp.drift.com/s/article/Featured-Downloads"> Download drift here </a>and login or <a href="https://start.drift.com/login">Login here</a> using the email i sent</p>
 <p>After you log in you can talk to visitor in real time</p>
-<img src="images\readme img\Livechat.png">
+<img src="images\readme img\drift.png">
