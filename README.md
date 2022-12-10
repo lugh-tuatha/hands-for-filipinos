@@ -25,7 +25,7 @@
       </ul>
     </li>
     <li>
-      <a href="#livechat">About the livechat</a>
+      <a href="#About-The-Livechat">About the livechat</a>
     </li>
   <ol>
 </details>
@@ -39,4 +39,4 @@
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)<br>
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
-## About The livechat
+## About The Livechat
