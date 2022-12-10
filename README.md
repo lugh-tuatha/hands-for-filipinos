@@ -29,7 +29,7 @@
 
 ## About The Project
 
-<img src="images/reademe img/README BANNER.png">
+<img src="images\readme img\README BANNER.png">
 
 ### Built With
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)<br>
