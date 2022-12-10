@@ -27,7 +27,7 @@
     <li>
       <a href="#About-The-Livechat">About the livechat</a>
       <ul>
-        <li><a href="#How-to-use(admin only)">How to use(admin only)</a></li>
+        <li><a href="#How-to-use">How to use(admin only)</a></li>
       </ul>
     </li>
   <ol>
@@ -46,7 +46,7 @@
     
 <img src="images\readme img\Livechat.png">
 
-### How to use(admin only)
+### How to use
 <p><a href="https://gethelp.drift.com/s/article/Featured-Downloads"> Download drift here </a>and login or <a href="https://start.drift.com/login">Login here</a> using the email i sent</p>
 <p>After you log in you can talk to visitor in real time</p>
 <img src="images\readme img\drift.png">
