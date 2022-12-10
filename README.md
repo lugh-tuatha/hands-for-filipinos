@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://lugh-tuatha.github.io/hands-for-filipinos/">
     <img src="images/logo.png" alt="Logo" height="80">
   </a>
 
@@ -29,7 +29,7 @@
 
 ## About The Project
 
-<img src="images/4git/sample.png">
+<img src="README BANNER.png">
 
 ### Built With
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)<br>
