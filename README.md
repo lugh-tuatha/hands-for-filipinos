@@ -25,7 +25,7 @@
       </ul>
     </li>
     <li>
-      <a href="#About-The-Livechat">About the livechat</a>
+      <a href="#Livechat">About the livechat</a>
       <ul>
         <li><a href="#How-to-use">How to use(admin only)</a></li>
       </ul>
@@ -42,7 +42,7 @@
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)<br>
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
-## About The Livechat
+## Livechat
     
 <img src="images\readme img\Livechat.png">
 
