@@ -40,4 +40,8 @@
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
 ## About The Livechat
+    
 <img src="images\readme img\Livechat.png">
+
+### How to use(admin only)
+<p><a href="https://gethelp.drift.com/s/article/Featured-Downloads"> Download drift here </a>and login or <a href="https://start.drift.com/login">Login here</a> using the email i sent</p>
