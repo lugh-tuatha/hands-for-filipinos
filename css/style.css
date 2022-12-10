@@ -674,7 +674,7 @@ Responsive code start
     }
 
     .banner{
-        background-position-x: 100%;
+        background-position-x: 80%;
     }
 
     .banner p{
@@ -708,12 +708,6 @@ Responsive code start
 }
 
 @media screen and (max-width: 425px) {
-    .banner h1{
-        margin: 150px;
-        font-size: 2rem;
-        line-height: 3rem;
-    }
-    
     .banner button{
         margin-bottom: 10px;
     }
