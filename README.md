@@ -59,4 +59,11 @@
 
 ## Newsletter
 
+<img src="images\readme img\newsletter.png">
+
 ### How newsletter works
+<p>Go to the sheets in the email I provide and you will see the list of email subscribe</p>
+<p>You can email all the subscribers if you have something to promote or news about the website</p>
+<img src="images\readme img\sheets.png">
+
+
