@@ -41,7 +41,7 @@
 
 ## About The Project
 
-<img src="images\readme img\README BANNER.png " width="100%">
+<img src="images\readmeimg\READMEBANNER.png ">
 
 ### Built With
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)<br>
@@ -56,20 +56,20 @@
 
 ## Livechat
     
-<img src="images\readme img\Livechat.png">
+<img src="images\readmeimg\Livechat.png">
 
 ### How to use
 <p><a href="https://gethelp.drift.com/s/article/Featured-Downloads"> Download drift here </a>and login or <a href="https://start.drift.com/login">Login here</a> using the email i sent</p>
 <p>After you log in you can talk to visitor in real time</p>
-<img src="images\readme img\drift.png">
+<img src="images\readmeimg\drift.png">
 
 ## Newsletter
 
-<img src="images\readme img\newsletter.png">
+<img src="images\readmeimg\newsletter.png">
 
 ### How newsletter works
 <p>Go to the sheets in the email I provide and you will see the list of email subscribe</p>
 <p>You can email all the subscribers if you have something to promote or news about the website</p>
-<img src="images\readme img\sheets.png">
+<img src="images\readmeimg\sheets.png">
 
 
