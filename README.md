@@ -56,7 +56,7 @@
 
 ## Livechat
     
-<img src="images\readmeimg\Livechat.png">
+![image](images/readmeimg/Livechat.png)
 
 ### How to use
 <p><a href="https://gethelp.drift.com/s/article/Featured-Downloads"> Download drift here </a>and login or <a href="https://start.drift.com/login">Login here</a> using the email i sent</p>
@@ -64,12 +64,11 @@
 <img src="images\readmeimg\drift.png">
 
 ## Newsletter
-
-<img src="images\readmeimg\newsletter.png">
+![image](images/readmeimg/newsletter.png)
 
 ### How newsletter works
 <p>Go to the sheets in the email I provide and you will see the list of email subscribe</p>
 <p>You can email all the subscribers if you have something to promote or news about the website</p>
-<img src="images\readmeimg\sheets.png">
+![image](images/readmeimg/sheets.png)
 
 
